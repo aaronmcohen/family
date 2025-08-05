@@ -53,10 +53,17 @@ function toggleContent(elem, icon) {
 				<ul class="nav" id="dropmenu">
 					<li class = "CurrentSection"><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+					<li><a href="../../../families.html" title="Families">Families</a></li>
+					<li><a href="../../../events.html" title="Events">Events</a></li>
+					<li><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
+					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../media.html" title="Media">Media</a></li>
 					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
+					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
 					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
+					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
+					<li><a href="../../../cal/2025/index.html" title="Web Calendar">Web Calendar</a></li>
 					<li><a onclick="history.go(-1);">Previous</a></li>
 					<li><a onclick="history.go(+1);">Next</a></li>
 				</ul>
@@ -180,7 +187,9 @@ function GoToTop() {
 					<tbody>
 						<tr>
 							<td class="ColumnEvent" rowspan="2">
-							Birth
+								<a href="../../../evt/b/a/fc863dfe79c711b4b5007cff2ab.html" title="Birth">
+								Birth
+								</a>
 							</td>
 							<td class="ColumnDate">1909-12-11</td>
 							<td class="ColumnPlace">
@@ -201,7 +210,9 @@ function GoToTop() {
 						</tr>
 						<tr>
 							<td class="ColumnEvent" rowspan="2">
-							Death
+								<a href="../../../evt/e/2/fc863ebfcb13b56930169ca022e.html" title="Death">
+								Death
+								</a>
 							</td>
 							<td class="ColumnDate">1969-06-13</td>
 							<td class="ColumnPlace">
@@ -302,7 +313,7 @@ function GoToTop() {
 				</h4>
 				<table class="infolist" id="toggle_families" style="display:none">
 					<tr class="BeginFamily">
-						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="" title="Family of March, Abraham Wolf and Front, Jacqueline Sylvia">Family of March, Abraham Wolf and Front, Jacqueline Sylvia</a></H4></td>
+						<td class="ColumnValue" colspan="3"><H4 class="subsection"><a href="../../../fam/5/0/fc88a697f363d6c3ef2e001e205.html" title="Family of March, Abraham Wolf and Front, Jacqueline Sylvia">Family of March, Abraham Wolf and Front, Jacqueline Sylvia</a></H4></td>
 					</tr>
 					<tr class="BeginFamily">
 						<td class="ColumnType">Married</td>
@@ -352,12 +363,6 @@ function GoToTop() {
 						<div class="MediaColumn ltr">
 							<img class="hover-shadow" onclick="openModal();currentSlide(2)" src="../../../thumb/e/1/fe5d0da0a711177c03cf58fb01e.png" />
 						</div>
-						<div class="MediaColumn ltr">
-							<img class="hover-shadow" onclick="openModal();currentSlide(3)" src="../../../thumb/4/e/fc86409c2ac1c2b25dd4882d8e4.png" />
-						</div>
-						<div class="MediaColumn ltr">
-							<img class="hover-shadow" onclick="openModal();currentSlide(4)" src="../../../thumb/0/7/fe5d0d438ca24a6cd2ba3ce0170.png" />
-						</div>
 					</div>
 					<div class="ModalClass" id="MediaModal">
 						<span class="MediaClose MediaCursor" onclick="closeModal()">&times;</span>
@@ -370,7 +375,7 @@ function GoToTop() {
 							</a>
 							<div class="MediaSlide">
 								<div class="MediaNumber">
-								1/4 - 222686597_e29661f0-196c-4d92-9724-80fe66cea867
+								1/2 - 222686597_e29661f0-196c-4d92-9724-80fe66cea867
 								</div>
 								<a href="../../../img/9/a/fc6c9325caf7f4fb9c20d9761a9.html">
 									<img src="../../../images/9/a/fc6c9325caf7f4fb9c20d9761a9.jpeg" style="width:100%" />
@@ -378,26 +383,10 @@ function GoToTop() {
 							</div>
 							<div class="MediaSlide">
 								<div class="MediaNumber">
-								2/4 - 222686597_1d0a8fb3-890c-4ca3-9e4a-60104347ec78
+								2/2 - 222686597_1d0a8fb3-890c-4ca3-9e4a-60104347ec78
 								</div>
 								<a href="../../../img/e/1/fe5d0da0a711177c03cf58fb01e.html">
 									<img src="../../../images/e/1/fe5d0da0a711177c03cf58fb01e.jpeg" style="width:100%" />
-								</a>
-							</div>
-							<div class="MediaSlide">
-								<div class="MediaNumber">
-								3/4 - Abe-death
-								</div>
-								<a href="../../../img/4/e/fc86409c2ac1c2b25dd4882d8e4.html">
-									<img src="../../../images/4/e/fc86409c2ac1c2b25dd4882d8e4.jpg" style="width:100%" />
-								</a>
-							</div>
-							<div class="MediaSlide">
-								<div class="MediaNumber">
-								4/4 - 222686597_752d861d-3905-43e3-9082-72e8003b7647
-								</div>
-								<a href="../../../img/0/7/fe5d0d438ca24a6cd2ba3ce0170.html">
-									<img src="../../../images/0/7/fe5d0d438ca24a6cd2ba3ce0170.jpeg" style="width:100%" />
 								</a>
 							</div>
 						</div>
@@ -406,6 +395,20 @@ function GoToTop() {
 					</div>
 				</div>
 				<div class="fullclear"></div>
+			</div>
+			<div class="subsection" id="familymap">
+				<h4 onclick="toggleContent('toggle_map', 'icon_map');">
+					<button class="icon" id="icon_map">
+						<svg class="triangle" viewBox="0 0 100 100">
+							<polygon points="5.9,88.2 50,11.8 94.1,88.2">
+							</polygon>
+						</svg>
+					</button>
+				Family Map
+				</h4>
+				<div id="toggle_map" style="display:none">
+					<a class="familymap" href="../../../maps/0/5/fc6c9362bd0590ee241144b0d50.html" title="Family Map">Family Map</a>
+				</div>
 			</div>
 			<div class="subsection" id="pedigree">
 				<h4 onclick="toggleContent('toggle_pedigree', 'icon_pedigree');">
@@ -466,7 +469,7 @@ function GoToTop() {
 				Ancestors
 				</h4>
 				<div class="tree" id="toggle_anc" style="display:none">
-					<div id="treeContainer" style="width:644px; height:300px; top: 0px">
+					<div id="treeContainer" style="width:694px; height:300px; top: 0px">
 						<div class="boxbg male AncCol0" style="top: 80px; left: 6px;">
 							<a class="thumbnail" href="../../../ppl/0/5/fc6c9362bd0590ee241144b0d50.html">
 								<table class="table">
@@ -530,7 +533,7 @@ function GoToTop() {
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.3<br />Last change was the 2025-05-22 23:57:59
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.3<br />Last change was the 2025-05-22 23:57:59<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			
