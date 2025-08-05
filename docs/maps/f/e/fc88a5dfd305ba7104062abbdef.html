@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr" lang="en-US">
+	<title>My Family Tree - Family Map</title>
+	<meta charset="UTF-8" />
+	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
+	<meta name ="apple-mobile-web-app-capable" content="yes" />
+	<meta name="generator" content="Gramps 6.0.3 http://gramps-project.org/" />
+	<meta name="author" content="" />
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
+	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/ancestortree.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/Basic-Ash.css" media="screen" rel="alternate stylesheet" title="Basic-Ash" type="text/css" />
+	<link href="../../../css/Basic-Blue.css" media="screen" rel="alternate stylesheet" title="Basic-Blue" type="text/css" />
+	<link href="../../../css/Basic-Cypress.css" media="screen" rel="alternate stylesheet" title="Basic-Cypress" type="text/css" />
+	<link href="../../../css/Basic-Lilac.css" media="screen" rel="alternate stylesheet" title="Basic-Lilac" type="text/css" />
+	<link href="../../../css/Basic-Peach.css" media="screen" rel="alternate stylesheet" title="Basic-Peach" type="text/css" />
+	<link href="../../../css/Basic-Spruce.css" media="screen" rel="alternate stylesheet" title="Basic-Spruce" type="text/css" />
+	<link href="../../../css/Mainz.css" media="screen" rel="alternate stylesheet" title="Mainz" type="text/css" />
+	<link href="../../../css/Nebraska.css" media="screen" rel="alternate stylesheet" title="Nebraska" type="text/css" />
+	<script>function navFunction() { var x = document.getElementById("dropmenu"); if (x.className === "nav") { x.className += " responsive"; } else { x.className = "nav"; } }</script>
+
+<script type="text/javascript">
+function toggleContent(elem, icon) {
+  // Get the DOM reference
+  var contentId = document.getElementById(elem);
+  var icon = document.getElementById(icon);
+  // Toggle
+  if (contentId.style.display == "block") {
+    contentId.style.display = "none";
+    icon.className = 'icon icon-close';
+  } else {
+    contentId.style.display = "block";
+    icon.className = 'icon icon-open';
+  };
+}
+</script>
+
+	<link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://openlayers.org/en/v6.15.1/build/ol.js" type="text/javascript"></script>
+	<link href="https://openlayers.org/en/v6.15.1/css/ol.css" rel="stylesheet" type="text/css" />
+</head>
+<body id ="FamilyMap">
+	<div id="outerwrapper">
+		<div class="ltr" id="header">
+			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
+			<h1 class="nav" id="SiteTitle">My Family Tree</h1>
+		</div>
+		<div class="wrappernav ltr" id="nav" role="navigation">
+			<div class="container">
+				<ul class="nav" id="dropmenu">
+					<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
+					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+					<li><a href="../../../families.html" title="Families">Families</a></li>
+					<li><a href="../../../events.html" title="Events">Events</a></li>
+					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
+					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
+					<li><a href="../../../media.html" title="Media">Media</a></li>
+					<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
+					<li><a href="../../../addressbook.html" title="Address Book">Address Book</a></li>
+					<li><a href="../../../updates.html" title="Updates">Updates</a></li>
+					<li><a href="../../../statistics.html" title="Statistics">Statistics</a></li>
+					<li><a href="../../../cal/2025/index.html" title="Web Calendar">Web Calendar</a></li>
+					<li><a onclick="history.go(-1);">Previous</a></li>
+					<li><a onclick="history.go(+1);">Next</a></li>
+				</ul>
+			</div>
+		</div>
+		<button id="gototop" onclick="GoToTop()" title="Go to top">
+			<svg class="triangle" viewBox="0 0 100 100">
+				<polygon points="0,100 100,100, 50,10">
+				</polygon>
+			</svg>
+		</button>
+	
+<script>
+//Get the button
+var gototop = document.getElementById("gototop");
+
+// When the user scrolls down 200px from the top of the document,
+// show the button
+window.onscroll = function() {scroll()};
+
+function scroll() {
+  if (document.body.scrollTop > 200 ||
+      document.documentElement.scrollTop > 200) {
+    gototop.style.display = "block";
+  } else {
+    gototop.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function GoToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+		<div class="content" id="FamilyMapDetail">
+			<h3>Tracking Front, Jacqueline Sylvia</h3>
+			<p id="description">
+			This map page represents that person and any descendants with all of their event/places. If you place your mouse over the marker it will display the place name. The markers and the Reference list are sorted in date order (if any?). Clicking on a place&#8217;s name in the Reference section will take you to that place&#8217;s page.
+			</p>
+			<div id="map_canvas">
+			</div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div class="ol-popup-content" id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
+			<div class="subsection" id="references">
+				<h4>References</h4>
+				<table class="infolist ltr">
+					<thead>
+						<tr>
+							<th class="ColumnDate">Date</th>
+							<th class="ColumnPlace">Place Title</th>
+							<th class="ColumnType">Event Type</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="ColumnDate">1909-12-11</td>
+							<td class="ColumnPlace"><a href="../../../plc/f/b/fc86333d9865a2d464c8730aabf.html" title="East Chicago Ward 6, Lake, Indiana, United States">East Chicago Ward 6, Lake, Indiana, United States</a></td>
+							<td class="ColumnType">Birth</td>
+						</tr>
+						<tr>
+							<td class="ColumnDate">1969-06-13</td>
+							<td class="ColumnPlace"><a href="../../../plc/6/5/fc863eb78b31a8e6a6aaea68956.html" title="Dayton, Montgomery County, Ohio, USA">Dayton, Montgomery County, Ohio, USA</a></td>
+							<td class="ColumnType">Death</td>
+						</tr>
+						<tr>
+							<td class="ColumnDate">2007-09-14</td>
+							<td class="ColumnPlace"><a href="../../../plc/4/2/fe7d1af2f073d3a7593a264f324.html" title="Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA">Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA</a></td>
+							<td class="ColumnType">Death</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		<script deter="deter" style="width =100%; height =100%;" type="text/javascript">
+		
+  var marker_png = '../../../images/marker.png';
+
+		
+  window.addEventListener("load", function() {
+    var map;
+    var heat = 'markers';
+    var tracelife = [
+    [-84.191600, 39.758900, 'Dayton, Montgomery County, Ohio, USA', "<p><a href='../../../ppl/0/5/fc6c9362bd0590ee241144b0d50.html' title='I0002' target='_self'>March, Abraham Wolf</a>:<a href='../../../evt/e/2/fc863ebfcb13b56930169ca022e.html' title='1969-06-13' target='_self'>Death</a> (1969-06-13)"],
+    [-87.472560, 41.649212, 'East Chicago Ward 6, Lake, Indiana, United States', "<p><a href='../../../ppl/0/5/fc6c9362bd0590ee241144b0d50.html' title='I0002' target='_self'>March, Abraham Wolf</a>:<a href='../../../evt/b/a/fc863dfe79c711b4b5007cff2ab.html' title='1909-12-11' target='_self'>Birth</a> (1909-12-11)"],
+    [-80.610489, 40.111131, 'Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA', "<p><a href='../../../ppl/f/e/fc88a5dfd305ba7104062abbdef.html' title='I0011' target='_self'>Front, Jacqueline Sylvia</a>:<a href='../../../evt/0/2/fc88a66202a336d5ae78699b020.html' title='2007-09-14' target='_self'>Death</a> (2007-09-14)"],];;
+    var iconStyle = new ol.style.Style({
+      image: new ol.style.Icon(({
+        anchor: [0.2, 48],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'pixels',
+        opacity: 1.0,
+        src: marker_png
+      }))
+    });
+    var markerSource = new ol.source.Vector({
+    });
+    var centerCoord = new ol.proj.transform([-84.04152500, 40.70405600], 'EPSG:4326', 'EPSG:3857');
+    var zoom = 6;
+    var radius = 0;
+    var blur = 0;
+    for (var i = 0; i < tracelife.length; i++) {
+      var loc = tracelife[i];
+      var iconFeature = new ol.Feature({
+       geometry: new ol.geom.Point(ol.proj.transform([loc[0], loc[1]],
+                                                     'EPSG:4326', 'EPSG:3857')),
+       name: loc[2],
+       data: loc[3],
+      });
+      iconFeature.setStyle(iconStyle);
+      markerSource.addFeature(iconFeature);
+    }
+    markerLayer = new ol.layer.Vector({
+      source: markerSource,
+      style: iconStyle
+    });
+    tooltip = new ol.layer.Vector({
+      source: markerSource,
+      style: iconStyle
+    });
+    heatmap = new ol.layer.Heatmap({
+      source: markerSource,
+      radius: radius,
+      blur: blur,
+      style: iconStyle
+    });
+    if (heat == "heatmap") {
+      map = new ol.Map({
+                   target: 'map_canvas',
+                   layers: [new ol.layer.Tile({ source: new ol.source.OSM() }),
+                            heatmap],
+                   view: new ol.View({ center: centerCoord, zoom: zoom })
+                   });
+    } else {
+      map = new ol.Map({
+                   target: 'map_canvas',
+                   layers: [new ol.layer.Tile({ source: new ol.source.OSM() }),
+                            markerLayer, tooltip],
+                   view: new ol.View({ center: centerCoord, zoom: zoom })
+                   });
+    };
+
+		
+    var element = document.getElementById('popup');
+    var content = document.getElementById('popup-content');
+    var ptitle = document.getElementById('popup-title');
+    var closer = document.getElementById('popup-closer');
+    var tip = document.getElementById('tooltip');
+    var tipcontent = document.getElementById('tooltip-content');
+    var tltip1 = undefined;
+    var tltip2 = undefined;
+    var tooltip = new ol.Overlay({
+      element: tip,
+      positioning: 'bottom-center',
+      offset: [10, 0],
+    });
+    map.addOverlay(tooltip);
+    var popup = new ol.Overlay({
+      element: element,
+      positioning: 'bottom-center',
+      autoPan: true,
+      autoPanAnimation: { duration: 500 },
+      stopEvent: true
+    });
+    map.addOverlay(popup);
+    /**
+     * Add a click handler to hide the popup.
+     * @return {boolean} Don't follow the href.
+     */
+    closer.onclick = function() {
+      popup.setPosition(undefined);
+      closer.blur();
+      tltip1 = undefined;
+      tltip2 = undefined;
+      return false;
+    };
+    map.on('pointermove', function(evt) {
+      evt.preventDefault()
+      if (tltip2 !== undefined) {
+        return;
+      }
+      var feature = this.forEachFeatureAtPixel(evt.pixel,
+                                               function(feature, layer) {
+        tltip1 = feature;
+        return feature;
+      });
+      map.getTargetElement().style.cursor = feature ? 'pointer' : '';
+      if (evt.dragging) {
+        tooltip.setPosition(undefined);
+        return;
+      }
+      if (feature) {
+        var coordinate = evt.coordinate;
+        tipcontent.innerHTML = feature.get('name');
+        tooltip.setPosition(coordinate);
+      } else {
+        tooltip.setPosition(undefined);
+      }
+    });
+    map.on('singleclick', function(evt) {
+      evt.preventDefault();
+      if (tltip1 !== undefined) {
+        tooltip.setPosition(undefined);
+      }
+      var feature = map.forEachFeatureAtPixel(evt.pixel,
+                                              function(feature, layer) {
+        tltip2 = feature;
+        return feature;
+      });
+      if (feature) {
+      var coordinate = evt.coordinate;
+      var title = '<h2>' + feature.get('name') + '</h2>';
+      ptitle.innerHTML = title;
+      content.innerHTML = feature.get('data');
+      popup.setPosition(coordinate);
+      }
+      });
+  });
+
+		</script>
+		</div>
+		<div class="fullclear"></div>
+		<div id="footer">
+			<p id="createdate">
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.3 on 2025-08-04<br />Created for Entire Database
+			</p>
+			<p id="copyright">
+			
+			</p>
+		</div>
+	</div>
+</body>
+</html>
