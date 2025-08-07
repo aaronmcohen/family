@@ -1,32 +1,33 @@
-ppl/e/7/fc88a7e581123d6f28388a5b27e.html|Front|Jacques Johann /Front/|10 JUN 1862|Paris, France|1954|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
-ppl/0/8/fc889881ccc41a0c08bd180b380.html|Marcovich|Paul S. /Marcovich/|4 AUG 1898||10 APR 1982||
 ppl/c/b/fc88a4374822be3cb4b13eebfbc.html|Cohen|Mark Edward /Cohen/|||||
-ppl/b/5/fe839e8505b386038e01573bd5b.html|Cohen|Meyer /Cohen/|1888|Russia|||
-ppl/8/3/fc6be869e097fdedb8f34756238.html|Marcovich|Wolf /Marcovich/|1 SEP 1868|Romania|23 NOV 1936|San Antonio, Bexar County, Texas, USA|
 ppl/4/c/fe83a00afd83d54999f0a5810c4.html|Cohen|Henry /Cohen/|1925||||
-ppl/d/a/fe839f01b22267dc5fa833892ad.html|Cohen|Mary /Cohen/|1894||||
-ppl/7/c/fe5cecb8e265859b532506270c7.html|Marcovich|Pearl /Marcovich/ K|9 JUL 1903||28 JAN 1954|Temple Israel Cemetery, Portage, Porter County, Indiana, USA|
-ppl/6/d/fc6c849967c59a88fe6f9712cd6.html|Marcovich|Buna Hercovitz /Marcovich/|6 MAY 1876||1958||
-ppl/f/d/fc6ce49ffb0725894150173df.html|Wechsler|Gazella Marcovich /Wechsler/|2 FEB 1895||29 JUN 1927|Chicago, Cook County, Illinois, USA|
-ppl/b/c/fe5d029431352365f56702727cb.html|Levine March|Janet /Levine March/ Gail|20 FEB 1963|Nashville, Davidson County, Tennessee, USA|15 AUG 1996||
-ppl/1/1/fe83a097012701af67c8d05cf11.html|Cohen|Elizabeth /Cohen/|1919||||
-ppl/b/5/fc88c4b073079f51bf4d7e2d05b.html|Cohen|David /Cohen/|20 FEB 1920|Chicago|||
-ppl/1/4/fc889d0a80449b53922a2aca841.html|Marcovich|Fannie /Marcovich/|||||
-ppl/0/5/fc6c9362bd0590ee241144b0d50.html|March|Abraham Wolf /March/|11 DEC 1909|East Chicago Ward 6, Lake, Indiana, United States|13 JUN 1969|Dayton, Montgomery County, Ohio, USA|
-ppl/f/e/fc88a5dfd305ba7104062abbdef.html|Front|Jacqueline Sylvia /Front/|10 JUL 1914||14 SEP 2007|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
-ppl/1/8/fe83a055f431dee79f19c8ae081.html|Cohen|Aida /Cohen/|1923||||
 ppl/f/7/fc864905f276a78da9d3d2b347f.html|Marcovich|Eva /Marcovich/|||||
+ppl/a/9/fc88c4cbe0416efca9d88c9b89a.html|Schwartz Cohen|Nettie /Schwartz Cohen/|1927||||
+ppl/0/5/fc6c9362bd0590ee241144b0d50.html|March|Abraham Wolf /March/|11 DEC 1909|East Chicago Ward 6, Lake, Indiana, United States|13 JUN 1969|Dayton, Montgomery County, Ohio, USA|
+ppl/1/8/fe83a055f431dee79f19c8ae081.html|Cohen|Aida /Cohen/|1923||||
+ppl/8/3/fc6be869e097fdedb8f34756238.html|Marcovich|Wolf /Marcovich/|1 SEP 1868|Romania|23 NOV 1936|San Antonio, Bexar County, Texas, USA|
+ppl/e/7/fc88a7e581123d6f28388a5b27e.html|Front|Jacques Johann /Front/|10 JUN 1862|Paris, France|1954|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
+ppl/8/d/fc88a562fce3d40e58a404bd7d8.html|Cohen|Jonathon /Cohen/|||||
+ppl/b/5/fe839e8505b386038e01573bd5b.html|Cohen|Meyer /Cohen/|1888|Russia|||
+ppl/f/d/fc6ce49ffb0725894150173df.html|Wechsler|Gazella Marcovich /Wechsler/|2 FEB 1895||29 JUN 1927|Chicago, Cook County, Illinois, USA|
+ppl/8/b/fc88a476b12727c2f37987302b8.html|Cohen|Gail March /Cohen/|||||
+ppl/0/8/fc889881ccc41a0c08bd180b380.html|Marcovich|Paul S. /Marcovich/|4 AUG 1898||10 APR 1982||
+ppl/0/f/fe803bb65af330cb56b935bacf0.html|Rhea Caplan|Dora /Rhea Caplan/|22 SEP 1903||16 APR 1987||
+ppl/6/d/fc6c849967c59a88fe6f9712cd6.html|Marcovich|Buna Hercovitz /Marcovich/|6 MAY 1876||1958||
+ppl/b/5/fc88c4b073079f51bf4d7e2d05b.html|Cohen|David /Cohen/|20 FEB 1920|Chicago|||
+ppl/b/2/fe804028513528afc30a4df222b.html|lee Front|sharon /lee Front/|16 AUG 1928|Ohio, West Virginia, United States|4 OCT 2005||
+ppl/b/c/fe5d029431352365f56702727cb.html|Levine March|Janet /Levine March/ Gail|20 FEB 1963|Nashville, Davidson County, Tennessee, USA|15 AUG 1996||
+ppl/1/2/fc88a77494e6d318bac018bcb21.html|Orenstein|Antoinette J /Orenstein/|1880||1958|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
+ppl/8/8/ff53cf9b2ef3b8d489e65474488.html|March|Wayne Front /March/|8 JUN 1947||27 JUL 2008||
+ppl/7/c/fe5cecb8e265859b532506270c7.html|Marcovich|Pearl /Marcovich/ K|9 JUL 1903||28 JAN 1954|Temple Israel Cemetery, Portage, Porter County, Indiana, USA|
+ppl/f/e/fc88a5dfd305ba7104062abbdef.html|Front|Jacqueline Sylvia /Front/|10 JUL 1914||14 SEP 2007|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
+ppl/5/b/fc863b7a31a7639934c6dd22bb5.html|Cohen|Aaron Michael /Cohen/|30 DEC 1980|Cedars-Sinai Medical Center|||
+ppl/d/d/fe65f4b37ef4ae97c8af0dc26dd.html|Schwartz|Minnie /Schwartz/|1904||||
+ppl/8/6/fe65f530b3c63da25c66b186168.html|B Schwartz|Joan /B Schwartz/|1933||||
+ppl/1/4/fc889d0a80449b53922a2aca841.html|Marcovich|Fannie /Marcovich/|||||
+ppl/b/7/fe65f3ed1b236185f74a211b7b.html|Schwartz|Sam /Schwartz/|3 MAR 1904||||
+ppl/1/9/fe5cf18e1e43d83562c192b0191.html|Wayne March|Arther /Wayne March/|15 JAN 1928|Chicago, Cook County, Illinois, USA|21 DEC 2006|Fort Worth, Tarrant County, Texas, USA|
 ppl/5/8/fe5cf6d8fb72fe7f46ae336de85.html|March|Zipora /March/ Ellison|21 JUL 1938|Israel|29 OCT 1970||
 ppl/3/e/fe5cfe617e61a5d20fd3d1675e3.html|March|Perry /March/ Avram|||||
-ppl/1/9/fe5cf18e1e43d83562c192b0191.html|Wayne March|Arther /Wayne March/|15 JAN 1928|Chicago, Cook County, Illinois, USA|21 DEC 2006|Fort Worth, Tarrant County, Texas, USA|
+ppl/d/a/fe839f01b22267dc5fa833892ad.html|Cohen|Mary /Cohen/|1894||||
+ppl/1/1/fe83a097012701af67c8d05cf11.html|Cohen|Elizabeth /Cohen/|1919||||
 ppl/5/3/fe7d231c1432ead4d43e81ec635.html|L Front|Marc /L Front/|1903||1952||
-ppl/a/9/fc88c4cbe0416efca9d88c9b89a.html|Schwartz Cohen|Nettie /Schwartz Cohen/|1927||||
-ppl/b/2/fe804028513528afc30a4df222b.html|lee Front|sharon /lee Front/|16 AUG 1928|Ohio, West Virginia, United States|4 OCT 2005||
-ppl/8/d/fc88a562fce3d40e58a404bd7d8.html|Cohen|Jonathon /Cohen/|||||
-ppl/1/2/fc88a77494e6d318bac018bcb21.html|Orenstein|Antoinette J /Orenstein/|1880||1958|Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA|
-ppl/5/b/fc863b7a31a7639934c6dd22bb5.html|Cohen|Aaron Michael /Cohen/|30 DEC 1980|Cedars-Sinai Medical Center|||
-ppl/8/6/fe65f530b3c63da25c66b186168.html|B Schwartz|Joan /B Schwartz/|1933||||
-ppl/8/b/fc88a476b12727c2f37987302b8.html|Cohen|Gail March /Cohen/|||||
-ppl/0/f/fe803bb65af330cb56b935bacf0.html|Rhea Caplan|Dora /Rhea Caplan/|22 SEP 1903||16 APR 1987||
-ppl/b/7/fe65f3ed1b236185f74a211b7b.html|Schwartz|Sam /Schwartz/|3 MAR 1904||||
-ppl/d/d/fe65f4b37ef4ae97c8af0dc26dd.html|Schwartz|Minnie /Schwartz/|1904||||
