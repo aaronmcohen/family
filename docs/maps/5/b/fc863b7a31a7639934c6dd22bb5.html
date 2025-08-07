@@ -139,7 +139,7 @@ function GoToTop() {
     var map;
     var heat = 'markers';
     var tracelife = [
-    [118.381000, -34.074900, 'Cedars-Sinai Medical Center', "<p><a href='../../../ppl/5/b/fc863b7a31a7639934c6dd22bb5.html' title='I0004' target='_self'>Cohen, Aaron Michael</a>:<a href='../../../evt/4/4/fc863c61c7b227793d97ecf7344.html' title='1980-12-30' target='_self'>Birth</a> (1980-12-30)"],];;
+    [-118.381000, 34.074900, 'Cedars-Sinai Medical Center', "<p><a href='../../../ppl/5/b/fc863b7a31a7639934c6dd22bb5.html' title='I0004' target='_self'>Cohen, Aaron Michael</a>:<a href='../../../evt/4/4/fc863c61c7b227793d97ecf7344.html' title='1980-12-30' target='_self'>Birth</a> (1980-12-30)"],];;
     var iconStyle = new ol.style.Style({
       image: new ol.style.Icon(({
         anchor: [0.2, 48],
@@ -151,7 +151,7 @@ function GoToTop() {
     });
     var markerSource = new ol.source.Vector({
     });
-    var centerCoord = new ol.proj.transform([118.38100000, -34.07490000], 'EPSG:4326', 'EPSG:3857');
+    var centerCoord = new ol.proj.transform([-118.38100000, 34.07490000], 'EPSG:4326', 'EPSG:3857');
     var zoom = 10;
     var radius = 0;
     var blur = 0;

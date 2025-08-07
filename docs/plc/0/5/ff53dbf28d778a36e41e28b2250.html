@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xml:lang="en-US" lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 <head dir="ltr" lang="en-US">
-	<title>My Family Tree - Family Map</title>
+	<title>My Family Tree - Places</title>
 	<meta charset="UTF-8" />
 	<meta name ="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=0.5, maximum-scale=10.0, user-scalable=yes" />
 	<meta name ="apple-mobile-web-app-capable" content="yes" />
@@ -44,7 +44,7 @@ function toggleContent(elem, icon) {
 	<script src="https://openlayers.org/en/v6.15.1/build/ol.js" type="text/javascript"></script>
 	<link href="https://openlayers.org/en/v6.15.1/css/ol.css" rel="stylesheet" type="text/css" />
 </head>
-<body id ="FamilyMap">
+<body dir="ltr">
 	<div id="outerwrapper">
 		<div class="ltr" id="header">
 			<button href="javascript:void(0);" class="navIcon" onclick="navFunction()">&#8801;</button>
@@ -57,7 +57,7 @@ function toggleContent(elem, icon) {
 					<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
 					<li><a href="../../../families.html" title="Families">Families</a></li>
 					<li><a href="../../../events.html" title="Events">Events</a></li>
-					<li><a href="../../../places.html" title="Places">Places</a></li>
+					<li class = "CurrentSection"><a href="../../../places.html" title="Places">Places</a></li>
 					<li><a href="../../../heatmaps.html" title="Heatmaps">Heatmaps</a></li>
 					<li><a href="../../../sources.html" title="Sources">Sources</a></li>
 					<li><a href="../../../media.html" title="Media">Media</a></li>
@@ -102,60 +102,55 @@ function GoToTop() {
 }
 </script>
 
-		<div class="content" id="FamilyMapDetail">
-			<h3>Tracking Cohen, Gail March</h3>
-			<p id="description">
-			This map page represents that person and any descendants with all of their event/places. If you place your mouse over the marker it will display the place name. The markers and the Reference list are sorted in date order (if any?). Clicking on a place&#8217;s name in the Reference section will take you to that place&#8217;s page.
-			</p>
-			<div id="map_canvas">
-			</div>
-			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div class="ol-popup-content" id="popup-content"></div></div>
-			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
-			<div class="subsection" id="references">
-				<h4>References</h4>
-				<table class="infolist ltr">
-					<thead>
-						<tr>
-							<th class="ColumnDate">Date</th>
-							<th class="ColumnPlace">Place Title</th>
-							<th class="ColumnType">Event Type</th>
-						</tr>
-					</thead>
+		<div class="content" id="PlaceDetail">
+			<h3>Green-Wood Cemetary</h3>
+			<div id="summaryarea">
+				<table class="infolist place">
 					<tbody>
 						<tr>
-							<td class="ColumnDate">1968</td>
-							<td class="ColumnPlace"><a href="../../../plc/4/3/fe9f20719e260fc5f61a3c7e134.html" title="Saratoga high school, Saratoga, California, USA">Saratoga high school, Saratoga, California, USA</a></td>
-							<td class="ColumnType">Education</td>
+							<td class="ColumnAttribute">Latitude</td>
+							<td class="ColumnValue">73°59'29.76"N</td>
 						</tr>
 						<tr>
-							<td class="ColumnDate">1980-12-30</td>
-							<td class="ColumnPlace"><a href="../../../plc/e/3/fc863c5d21f15dc3e72707c353e.html" title="Cedars-Sinai Medical Center">Cedars-Sinai Medical Center</a></td>
-							<td class="ColumnType">Birth</td>
+							<td class="ColumnAttribute">Longitude</td>
+							<td class="ColumnValue">40°39'09.36"E</td>
 						</tr>
 						<tr>
-							<td class="ColumnDate">1984-04-01</td>
-							<td class="ColumnPlace"><a href="../../../plc/2/a/fca9be6b7927915bcc2f416a0a2.html" title="4633 CARITINA DRIVETARZANA, CA 91356">4633 CARITINA DRIVETARZANA, CA 91356</a></td>
-							<td class="ColumnType">Residence</td>
+							<td>
+							&nbsp;
+							</td>
 						</tr>
 						<tr>
-							<td class="ColumnDate">2002-03</td>
-							<td class="ColumnPlace"><a href="../../../plc/e/2/fca9bb392f16ab38f20561be62e.html" title="68 South Street, Carlisle, MA 01741">68 South Street, Carlisle, MA 01741</a></td>
-							<td class="ColumnType">Residence</td>
+							<th class="ColumnAttribute">Enclosed By</th>
 						</tr>
 						<tr>
-							<td class="ColumnDate">2005-12</td>
-							<td class="ColumnPlace"><a href="../../../plc/8/d/fca9bd3a0ab28a3813cde034ad8.html" title="8 Rockport Road, Weston, MA 02493">8 Rockport Road, Weston, MA 02493</a></td>
-							<td class="ColumnType">Residence</td>
+							<td>
+							&nbsp;
+							</td>
 						</tr>
 						<tr>
-							<td class="ColumnDate">2010</td>
-							<td class="ColumnPlace"><a href="../../../plc/4/6/fca9b2a2aebdfc5c4209782464.html" title="869 CHARLES RIVER ST, Needham, Norfolk, Massachusetts, United">869 CHARLES RIVER ST, Needham, Norfolk, Massachusetts, United</a></td>
-							<td class="ColumnType">Residence</td>
+							<th class="ColumnAttribute">Place Encloses</th>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-		<script deter="deter" style="width =100%; height =100%;" type="text/javascript">
+			<h4>Place Map</h4>
+			<div id="map_canvas"></div>
+			<div class="ol-popup" id="popup"><a class="ol-popup-closer" href="#" id="popup-closer"></a><div class="ol-popup-title" id="popup-title"></div><div id="popup-content"></div></div>
+			<div class="ol-popup" id="tooltip"><div id="tooltip-content"></div></div>
+			<div class="subsection" id="references">
+				<h4>References</h4>
+				<ol class="Col1" role="Volume-n-Page" type=1>
+					<li>
+						<a href="../../../ppl/8/8/ff53cf9b2ef3b8d489e65474488.html">
+						March, Wayne Front
+						(1947-2008)
+						
+						</a>
+					</li>
+				</ol>
+			</div>
+		<script type="text/javascript">
 		
   var marker_png = '../../../images/marker.png';
 
@@ -163,13 +158,7 @@ function GoToTop() {
   window.addEventListener("load", function() {
     var map;
     var heat = 'markers';
-    var tracelife = [
-    [-118.557280, 34.154130, '4633 CARITINA DRIVETARZANA, CA 91356', "<p><a href='../../../ppl/c/b/fc88a4374822be3cb4b13eebfbc.html' title='I0008' target='_self'>Cohen, Mark Edward</a>:<a href='../../../evt/9/9/fca9be873211e2eca1a59757d99.html' title='1984-04-01' target='_self'>Residence</a> (1984-04-01)"],
-    [-71.368780, 42.515200, '68 South Street, Carlisle, MA 01741', "<p><a href='../../../ppl/c/b/fc88a4374822be3cb4b13eebfbc.html' title='I0008' target='_self'>Cohen, Mark Edward</a>:<a href='../../../evt/1/0/fca9bbae734699f337a79875401.html' title='2002-03' target='_self'>Residence</a> (2002-03)"],
-    [-71.315000, 42.318280, '8 Rockport Road, Weston, MA 02493', "<p><a href='../../../ppl/c/b/fc88a4374822be3cb4b13eebfbc.html' title='I0008' target='_self'>Cohen, Mark Edward</a>:<a href='../../../evt/c/9/fca9bd40e06637ea24840472b9c.html' title='2005-12' target='_self'>Residence</a> (2005-12)"],
-    [-71.295340, 42.270010, '869 CHARLES RIVER ST, Needham, Norfolk, Massachusetts, United', "<p><a href='../../../ppl/c/b/fc88a4374822be3cb4b13eebfbc.html' title='I0008' target='_self'>Cohen, Mark Edward</a>:<a href='../../../evt/4/e/fca9b2b503e323d52d9478d29e4.html' title='2010' target='_self'>Residence</a> (2010)"],
-    [-118.381000, 34.074900, 'Cedars-Sinai Medical Center', "<p><a href='../../../ppl/5/b/fc863b7a31a7639934c6dd22bb5.html' title='I0004' target='_self'>Cohen, Aaron Michael</a>:<a href='../../../evt/4/4/fc863c61c7b227793d97ecf7344.html' title='1980-12-30' target='_self'>Birth</a> (1980-12-30)"],
-    [-122.029600, 37.266400, 'Saratoga high school, Saratoga, California, USA', "<p><a href='../../../ppl/c/b/fc88a4374822be3cb4b13eebfbc.html' title='I0008' target='_self'>Cohen, Mark Edward</a>:<a href='../../../evt/e/2/fe9f20ac1a81184d3c2d96c122e.html' title='1968' target='_self'>Education</a> (1968)"],];;
+    var tracelife = [[40.6526, 73.9916, 'Green-Wood Cemetary', ' ']];
     var iconStyle = new ol.style.Style({
       image: new ol.style.Icon(({
         anchor: [0.2, 48],
@@ -181,8 +170,8 @@ function GoToTop() {
     });
     var markerSource = new ol.source.Vector({
     });
-    var centerCoord = new ol.proj.transform([-94.87489000, 38.29505000], 'EPSG:4326', 'EPSG:3857');
-    var zoom = 3;
+    var centerCoord = new ol.proj.transform([40.65260000, 73.99160000], 'EPSG:4326', 'EPSG:3857');
+    var zoom = 10;
     var radius = 0;
     var blur = 0;
     for (var i = 0; i < tracelife.length; i++) {
@@ -308,7 +297,7 @@ function GoToTop() {
 		<div class="fullclear"></div>
 		<div id="footer">
 			<p id="createdate">
-			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.3 on 2025-08-07<br />Created for Entire Database
+			Generated by <a href="http://gramps-project.org/">Gramps</a> 6.0.3<br />Last change was the 2025-08-07 16:15:34<br />Created for Entire Database
 			</p>
 			<p id="copyright">
 			
