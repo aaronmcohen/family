@@ -123,6 +123,11 @@ function GoToTop() {
 					</thead>
 					<tbody>
 						<tr>
+							<td class="ColumnDate">1971</td>
+							<td class="ColumnPlace"><a href="../../../plc/1/a/ff53fdde6007274a8cfc2e14fa1.html" title="East High School, Madison, WI">East High School, Madison, WI</a></td>
+							<td class="ColumnType">Graduation</td>
+						</tr>
+						<tr>
 							<td class="ColumnDate">2008-08-01</td>
 							<td class="ColumnPlace"><a href="../../../plc/0/5/ff53dbf28d778a36e41e28b2250.html" title="Green-Wood Cemetary">Green-Wood Cemetary</a></td>
 							<td class="ColumnType">Burial</td>
@@ -139,6 +144,7 @@ function GoToTop() {
     var map;
     var heat = 'markers';
     var tracelife = [
+    [-89.354190, 43.097450, 'East High School, Madison, WI', "<p><a href='../../../ppl/c/7/ff53ecdf98d4be40a3a5ffe897c.html' title='I0033' target='_self'>Greenelsh, Marilyn E</a>:<a href='../../../evt/8/1/ff53fcce0885f0bfe6ad34b4018.html' title='1971' target='_self'>Graduation</a> (1971)"],
     [40.652600, 73.991600, 'Green-Wood Cemetary', "<p><a href='../../../ppl/8/8/ff53cf9b2ef3b8d489e65474488.html' title='I0032' target='_self'>March, Wayne Front</a>:<a href='../../../evt/9/1/ff53dbf604356cea23b09d36619.html' title='2008-08-01' target='_self'>Burial</a> (2008-08-01)"],];;
     var iconStyle = new ol.style.Style({
       image: new ol.style.Icon(({
@@ -151,8 +157,8 @@ function GoToTop() {
     });
     var markerSource = new ol.source.Vector({
     });
-    var centerCoord = new ol.proj.transform([40.65260000, 73.99160000], 'EPSG:4326', 'EPSG:3857');
-    var zoom = 10;
+    var centerCoord = new ol.proj.transform([-24.35079500, 58.54452500], 'EPSG:4326', 'EPSG:3857');
+    var zoom = 3;
     var radius = 0;
     var blur = 0;
     for (var i = 0; i < tracelife.length; i++) {
