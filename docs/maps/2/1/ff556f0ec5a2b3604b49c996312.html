@@ -103,7 +103,7 @@ function GoToTop() {
 </script>
 
 		<div class="content" id="FamilyMapDetail">
-			<h3>Tracking Front, Jacques Johann</h3>
+			<h3>Tracking Front, Helen Rose</h3>
 			<p id="description">
 			This map page represents that person and any descendants with all of their event/places. If you place your mouse over the marker it will display the place name. The markers and the Reference list are sorted in date order (if any?). Clicking on a place&#8217;s name in the Reference section will take you to that place&#8217;s page.
 			</p>
@@ -123,33 +123,13 @@ function GoToTop() {
 					</thead>
 					<tbody>
 						<tr>
-							<td class="ColumnDate">1862-06-10</td>
-							<td class="ColumnPlace"><a href="../../../plc/8/7/fe7d1ef932d111ec59ea727b278.html" title="Paris, France">Paris, France</a></td>
-							<td class="ColumnType">Birth</td>
-						</tr>
-						<tr>
 							<td class="ColumnDate">1904-12-20</td>
 							<td class="ColumnPlace"><a href="../../../plc/3/5/fe803e3e908374249b4f25eb053.html" title="Ohio, West Virginia, United States">Ohio, West Virginia, United States</a></td>
 							<td class="ColumnType">Birth</td>
 						</tr>
 						<tr>
-							<td class="ColumnDate">1954</td>
-							<td class="ColumnPlace"><a href="../../../plc/4/2/fe7d1af2f073d3a7593a264f324.html" title="Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA">Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA</a></td>
-							<td class="ColumnType">Death</td>
-						</tr>
-						<tr>
-							<td class="ColumnDate">1958</td>
-							<td class="ColumnPlace"><a href="../../../plc/4/2/fe7d1af2f073d3a7593a264f324.html" title="Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA">Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA</a></td>
-							<td class="ColumnType">Death</td>
-						</tr>
-						<tr>
 							<td class="ColumnDate">2001-10-21</td>
 							<td class="ColumnPlace"><a href="../../../plc/6/5/fc863eb78b31a8e6a6aaea68956.html" title="Dayton, Montgomery County, Ohio, USA">Dayton, Montgomery County, Ohio, USA</a></td>
-							<td class="ColumnType">Death</td>
-						</tr>
-						<tr>
-							<td class="ColumnDate">2007-09-14</td>
-							<td class="ColumnPlace"><a href="../../../plc/4/2/fe7d1af2f073d3a7593a264f324.html" title="Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA">Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA</a></td>
 							<td class="ColumnType">Death</td>
 						</tr>
 					</tbody>
@@ -165,9 +145,7 @@ function GoToTop() {
     var heat = 'markers';
     var tracelife = [
     [-84.191600, 39.758900, 'Dayton, Montgomery County, Ohio, USA', "<p><a href='../../../ppl/2/1/ff556f0ec5a2b3604b49c996312.html' title='I0035' target='_self'>Front, Helen Rose</a>:<a href='../../../evt/a/9/ff557049ed03bda7a9c523ede9a.html' title='2001-10-21' target='_self'>Death</a> (2001-10-21)"],
-    [-80.610489, 40.111131, 'Greenwood Cemetery, Wheeling, Ohio County, West Virginia, USA', "<p><a href='../../../ppl/e/7/fc88a7e581123d6f28388a5b27e.html' title='I0013' target='_self'>Front, Jacques Johann</a>:<a href='../../../evt/1/4/fe7d1d7617f3e59165c0281f941.html' title='1954' target='_self'>Death</a> (1954)" + "<br><a href='../../../ppl/1/2/fc88a77494e6d318bac018bcb21.html' title='I0012' target='_self'>Orenstein, Antoinette J</a>:<a href='../../../evt/4/f/fe7d1c53c983cb5fe3fdf1ac7f4.html' title='1958' target='_self'>Death</a> (1958)" + "<br><a href='../../../ppl/f/e/fc88a5dfd305ba7104062abbdef.html' title='I0011' target='_self'>Front, Jacqueline Sylvia</a>:<a href='../../../evt/0/2/fc88a66202a336d5ae78699b020.html' title='2007-09-14' target='_self'>Death</a> (2007-09-14)"],
-    [-80.610500, 40.111100, 'Ohio, West Virginia, United States', "<p><a href='../../../ppl/2/1/ff556f0ec5a2b3604b49c996312.html' title='I0035' target='_self'>Front, Helen Rose</a>:<a href='../../../evt/8/e/ff556fce0ce42a46b1f1a8458e8.html' title='1904-12-20' target='_self'>Birth</a> (1904-12-20)"],
-    [2.351400, 48.857500, 'Paris, France', "<p><a href='../../../ppl/e/7/fc88a7e581123d6f28388a5b27e.html' title='I0013' target='_self'>Front, Jacques Johann</a>:<a href='../../../evt/3/8/fc88a82ae5eda71125dd6b7b83.html' title='1862-06-10' target='_self'>Birth</a> (1862-06-10)"],];;
+    [-80.610500, 40.111100, 'Ohio, West Virginia, United States', "<p><a href='../../../ppl/2/1/ff556f0ec5a2b3604b49c996312.html' title='I0035' target='_self'>Front, Helen Rose</a>:<a href='../../../evt/8/e/ff556fce0ce42a46b1f1a8458e8.html' title='1904-12-20' target='_self'>Birth</a> (1904-12-20)"],];;
     var iconStyle = new ol.style.Style({
       image: new ol.style.Icon(({
         anchor: [0.2, 48],
@@ -179,8 +157,8 @@ function GoToTop() {
     });
     var markerSource = new ol.source.Vector({
     });
-    var centerCoord = new ol.proj.transform([-39.12954400, 44.30820000], 'EPSG:4326', 'EPSG:3857');
-    var zoom = 3;
+    var centerCoord = new ol.proj.transform([-82.40105000, 39.93500000], 'EPSG:4326', 'EPSG:3857');
+    var zoom = 6;
     var radius = 0;
     var blur = 0;
     for (var i = 0; i < tracelife.length; i++) {
